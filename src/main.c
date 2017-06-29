@@ -23,6 +23,11 @@
 int
 main(int argc, char **argv)
 {
+    /* Perform some extra setup if we're running in the simulator. */
+#ifdef ARCH_sim
+    mcu_sim_parse_args(argc, argv);
+#endif
+
     /* Initialize all packages. */
     sysinit();
 
