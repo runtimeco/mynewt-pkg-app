@@ -17,7 +17,7 @@
 # under the License.
 #
 
-pkg.name: your-app-name
+pkg.name: your-pkg-name
 pkg.type: app
 pkg.description: "Description of your app"
 pkg.author: "You <you@you.org>"

@@ -17,6 +17,8 @@
 # under the License.
 #
 
+# Settings this app defines.
 syscfg.defs:
 
+# Settings this app overrides.
 syscfg.vals:
